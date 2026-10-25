@@ -4,8 +4,8 @@
 
 | Contract | Address | Deployed by | Status |
 |---|---|---|---|
-| AggregatorRouter 2.0.0 | `0x9A3158beBDEFd2C9DD9D00e6B14F66E1c5E7d514` | the Safe, CreateCall `performCreate2` | pending: Safe transaction at nonce 6 |
-| Previous router (Kuru Flow derived) | `0x0624E93350bFfc5B3570589FCae68e2CaBe6c620` | deployer EOA (`broadcast/deployAll.sol/4441`) | retired from the entrypoint by the same Safe transaction |
+| AggregatorRouter 2.0.0 | `0x9A3158beBDEFd2C9DD9D00e6B14F66E1c5E7d514` | the Safe, CreateCall `performCreate2` | live since 2026-10-25: Safe transaction `0xea7a3a4f4498b6181dbf7b4fcbb234496fda7683274e74b9c06c78deb4c93495` (block 64,411,045) |
+| Previous router (Kuru Flow derived) | `0x0624E93350bFfc5B3570589FCae68e2CaBe6c620` | deployer EOA (`broadcast/deployAll.sol/4441`) | retired 2026-10-25: the entrypoint calls 2.0.0 since the same Safe transaction |
 
 AggregatorRouter 2.0.0:
 

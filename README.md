@@ -64,8 +64,8 @@ the v5.5.0 release. CI checks that every submodule is pinned to a commit over HT
 
 | Contract | Address | Status |
 |---|---|---|
-| AggregatorRouter 2.0.0 | see [DEPLOYMENTS.md](DEPLOYMENTS.md) | deployed by the Safe through CreateCall |
-| Previous router | `0x0624E93350bFfc5B3570589FCae68e2CaBe6c620` | retired from the entrypoint when 2.0.0 is set |
+| AggregatorRouter 2.0.0 | `0x9A3158beBDEFd2C9DD9D00e6B14F66E1c5E7d514` | live since 2026-10-25, deployed by the Safe through CreateCall ([DEPLOYMENTS.md](DEPLOYMENTS.md)) |
+| Previous router | `0x0624E93350bFfc5B3570589FCae68e2CaBe6c620` | retired from the entrypoint on 2026-10-25 |
 
 ## Provenance
 
