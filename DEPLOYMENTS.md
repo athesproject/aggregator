@@ -16,6 +16,7 @@ AggregatorRouter 2.0.0:
 | Init code hash | `0x08ec60f3ffd2e009a0635f80456812ba8bc568d98602015de908acf79ad04234` (`forge script script/PredictRouter.s.sol`) |
 | Compiler | solc 0.8.28, via-IR, optimizer 50 runs, EVM cancun, `bytecode_hash = "none"` |
 | Called by | the entrypoint proxy `0x5E19EB2A6BA30892CCe33f93D7Fb24D498512266` (source: litvmswap-feevault) |
+| Owner | the 48-hour timelock `0x35774e0172571314fcDa7d602ea4D3410EE37188` since 2026-10-25 (Safe transaction `0x2bb206cd7317bedf68ef253fb100898411d8eeb275748e9d82fde96aa4796d0b`, block 64,462,396) |
 
 The previous router and entrypoint were also deployed on Soneium (1868), Somnia (5031) and Ink (57073); see
 `broadcast/deployAll.sol/<chain id>/run-latest.json`.

@@ -24,8 +24,9 @@ takes the user's tokens, charges the protocol fee and delivers the output.
   amount of its leg.
 - **Strict decoding.** Every read of the route checks its length; a malformed, truncated or oversized route fails
   with a defined error before anything moves.
-- **Never send tokens to the router directly.** It does not hold balances between transactions. Tokens sent to it
-  by mistake can only be returned by its owner (the LitVM Safe, later the 48 h timelock) through `recover`.
+- **Never send tokens to the router directly.** It does not hold balances between transactions. Tokens sent to it by
+  mistake can only be returned by its owner, the 48-hour timelock `0x35774e0172571314fcDa7d602ea4D3410EE37188` (since
+  2026-10-25), through `recover`.
 
 Supported tokens: standard ERC-20 tokens. Fee-on-transfer tokens work through V2 pairs (amounts are measured);
 Uniswap V3 pools do not support them, so such a swap reverts. Rebasing tokens are not supported.
